@@ -16,6 +16,8 @@ public abstract class Mascotas {
 		this.fechaNacimiento = fechaNacimiento;
 	}
 
+	// getters y setters
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -47,6 +49,8 @@ public abstract class Mascotas {
 	public void setFechaNacimiento(String fechaNacimiento) {
 		this.fechaNacimiento = fechaNacimiento;
 	}
+	
+	
 
 	@Override
 	public String toString() {
