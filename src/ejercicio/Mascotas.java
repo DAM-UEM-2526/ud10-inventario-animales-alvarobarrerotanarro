@@ -2,6 +2,7 @@ package ejercicio;
 
 /**
  * Clase abstracta, decir que no podemos instanciar esta clase directamente.
+ * Leer el resto de comentarios para las subclases.
  */
 public abstract class Mascotas {
 	private String nombre;
