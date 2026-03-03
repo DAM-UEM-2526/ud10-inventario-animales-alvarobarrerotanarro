@@ -34,4 +34,21 @@ public class Inventario {
 			contenedor.remove(m);
 		}
 	}
+
+	public void imprimirTodos() {
+		for (Mascotas m : contenedor) {
+			System.out.println(m.getNombre());
+		}
+	}
+
+	public void imprimirPerros() {
+		// La lista es generica en el sentido de que no sabemos el tipo especifico
+		// la forma de saber la clase especifica es con el operador instanceof.
+
+		for (Mascotas m : contenedor) {
+			if (m instanceof Perro) {
+				System.out.println(m.getNombre());
+			}
+		}
+	}
 }
